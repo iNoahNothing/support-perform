@@ -4,7 +4,7 @@ Now we will deploy an application in Kubernetes.
 
 This process can be pretty straight forward and luckily for this exercise it is!
 
-All of the configuration files have again been provided for you in the `backend-app/` directory. 
+All of the configuration files have again been provided for you in the `api/` directory. 
 
 ### Information about the application
 
