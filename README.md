@@ -20,4 +20,32 @@ Do not get discouraged if you do not know how to do something. Completing the ex
 
 Good luck and have fun!
 
+## Prerequesties
+
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- A text editor of your choice
+- A Kubernetes cluster
+
+## Setup
+
+A Kubernetes cluster have been provided for you. 
+
+If you do not already have `kubectl` installed simply move the file to a location in your `$PATH`
+
+**Linux**
+```
+sudo mv bin/linux/kubectl /usr/local/bin/kubectl
+```
+
+**MacOS**
+```
+mv bin/darwin/kubectl /usr/local/bin/kubectl
+```
+
+Move the `kubeconfig.yaml` in the root of this project to `~/.kube/config` then continue below.
+
+```
+cp kubeconfig.yaml ~/.kube/config
+```
+
 ### [Next: Deploy Ambassador](./walkthrough/install-ambassador.md)
