@@ -1,20 +1,17 @@
-## Deploy an application
+# Deploy an application
 
-Now we will deploy an application in Kubernetes. 
+Great! You now have Ambassador Edge Stack installed and ready to route traffic to your microservice API!
 
-This process can be pretty straight forward and luckily for this exercise it is!
+##  Install the application
 
 All of the configuration files have again been provided for you in the `api/` directory. 
 
-### Information about the application
+# Questions
 
-- A simple web api built in golang
-- Has endpoints `/`, `/get-quote/`, `/debug/` registered
+### How do you know the application has been properly installed?
 
-### Questions
+### What port is the application listening on? What port is the `Service` listening on?
 
-How could you verify that the application has been installed?
+### How can we access this application without Ambassador Edge Stack? Do it.
 
-What port is the application listening on
-
-## [Next](expose.md)
+# [Next](expose.md)

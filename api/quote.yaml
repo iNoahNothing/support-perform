@@ -20,7 +20,10 @@ spec:
         image: quay.io/datawire/quote:0.3.0
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 8000
+        env:
+        - name: PORT
+          value: "8000"
         resources:
           limits:
             cpu: "0.1"

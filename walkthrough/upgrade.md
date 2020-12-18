@@ -1,7 +1,13 @@
-## Challenge: Upgrade Ambassador
+# Upgrade Ambassador
 
-In the last step we installed an older version (1.1.0) of Ambassador.
+Ambassador Edge Stack is being constantly improved and new releases come out monthly.
 
-Using the same manifests we used in the last step. See if you can upgrade to the latest version (1.3.1)
+In the last step we installed an old version (1.7.0) of Ambassador.
 
-## [Next](deploy.md)
+Using the same manifests we used in the last step. What can you change to upgrade to the latest version of Ambassador? (1.9.1)
+
+# Questions
+
+### What are the challenges with upgrading? What was easy?
+
+# [Next](deploy.md)
